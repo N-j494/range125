@@ -12,13 +12,13 @@ print(next(my_iter))
 # Output: 7
 print(next(my_iter))
 
-# next(obj) is same as obj.__next__()
+ next(obj) is same as obj.__next__()
 
 # Output: 0
-#print(my_iter.__next__())
+print(my_iter.__next__())
 
-# Output: 3
-#print(my_iter.__next__())
+#Output: 3
+print(my_iter.__next__())
 
 # This will raise error, no items left
-#next(my_iter)
+next(my_iter)
